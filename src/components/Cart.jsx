@@ -32,7 +32,7 @@ const Cart = ({ carts, setCarts }) => {
                     <div className="flex items-center justify-between bg-[#F9FAFC] border border-[#F2F2F2] rounded-2xl p-4">
                         <div className='flex items-center gap-4'>
                             <div className="border border-[#F2F2F2] bg-white rounded-full p-4">
-                                <img className='object-contain ' src={`/src/assets/products/${item.icon}.png`} alt="" />
+                                <img className='object-contain w-12 h-12' src={item.icon} alt={item.name} />
                             </div>
 
                             <div>
@@ -43,7 +43,7 @@ const Cart = ({ carts, setCarts }) => {
                         <button
                             onClick={() => handleRemove(item.id)}
                             className='text-red-500 font-bold'>
-                            <i class="fa-solid fa-trash-can"></i>
+                            <i className="fa-solid fa-trash-can"></i>
                         </button>
                     </div>
 
@@ -61,4 +61,4 @@ const Cart = ({ carts, setCarts }) => {
     )
 }
 
-export default Cart
+export default Cart;

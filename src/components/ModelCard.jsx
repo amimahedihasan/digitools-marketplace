@@ -24,8 +24,8 @@ const ModelCard = ({ model, carts, setCarts }) => {
   return (
     <div className='border border-[#F2F2F2] rounded-2xl p-6 space-y-4'>
       <div className='flex justify-between items-center'>
-        <div className='border border-[#F2F2F2] rounded-full p-4'>
-          <img src={`/src/assets/products/${model.icon}.png`} alt="" />
+        <div className='border border-[#F2F2F2] bg-white rounded-full p-4'>
+          <img className='w-12 h-12 object-contain' src={model.icon} alt={model.name} />
         </div>
         <div className={`px-3 py-1.5 rounded-full -mt-10 ${tagStyles[model.tag]}`}>
           <p>{model.tag}</p>
@@ -63,4 +63,4 @@ const ModelCard = ({ model, carts, setCarts }) => {
   )
 }
 
-export default ModelCard
+export default ModelCard;
