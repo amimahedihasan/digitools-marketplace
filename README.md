@@ -3,7 +3,7 @@
 An advanced and aesthetically pleasing Digital Tools E-commerce platform where users can explore, filter, and purchase premium digital subscriptions and software tools. Built with a focus on seamless UX/UI and real-time interaction.
 
 ##  Live Deployment
- [View Live Site](digitools-marketplace)
+ [View Live Site](https://digitools-projects-created-mahedi.netlify.app/)
 
 ---
 
